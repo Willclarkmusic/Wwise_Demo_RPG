@@ -1,0 +1,34 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	25772016	TerrainType			\Default Work Unit\TerrainType	
+	444815956	PlayerLife			\Default Work Unit\PlayerLife	
+	1021618141	MusicState			\Default Work Unit\MusicState	
+
+State	ID	Name	State Group			Notes
+	504532776	Brick	TerrainType			
+	748895195	None	TerrainType			
+	1944526589	Pink	TerrainType			
+	2058049674	Wood	TerrainType			
+	2195636714	Dirt	TerrainType			
+	2473969246	Metal	TerrainType			
+	4248645337	Grass	TerrainType			
+	655265632	Alive	PlayerLife			
+	748895195	None	PlayerLife			
+	2044049779	Dead	PlayerLife			
+	608898761	Dungeon	MusicState			
+	748895195	None	MusicState			
+	1165767839	Boss_Dead	MusicState			
+	1177409132	FinalArea	MusicState			
+	1560169506	Boss	MusicState			
+	2610870411	MainExplore	MusicState			
+	2716678721	Victory	MusicState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	835198467	MasterBus			\Default Work Unit\MasterBus	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

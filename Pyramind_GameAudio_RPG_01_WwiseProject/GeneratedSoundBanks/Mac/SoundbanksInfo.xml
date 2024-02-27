@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{C64578C4-D21A-6D65-34D9-9E378E24FFAA}">
+			<ShortName>MainSoundBank</ShortName>
+			<Path>MainSoundBank.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{33949BEE-AE87-CF48-476F-FF28F1FE3889}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="835198467" Name="MasterBus"/>
+				<GameParameter Id="2886307548" Name="MusicBus"/>
+				<GameParameter Id="3803850708" Name="SFXBus"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="25772016" Name="TerrainType">
+					<States>
+						<State Id="504532776" Name="Brick"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1944526589" Name="Pink"/>
+						<State Id="2058049674" Name="Wood"/>
+						<State Id="2195636714" Name="Dirt"/>
+						<State Id="2473969246" Name="Metal"/>
+						<State Id="4248645337" Name="Grass"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="444815956" Name="PlayerLife">
+					<States>
+						<State Id="655265632" Name="Alive"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2044049779" Name="Dead"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1021618141" Name="MusicState">
+					<States>
+						<State Id="608898761" Name="Dungeon"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1165767839" Name="Boss_Dead"/>
+						<State Id="1177409132" Name="FinalArea"/>
+						<State Id="1560169506" Name="Boss"/>
+						<State Id="2610870411" Name="MainExplore"/>
+						<State Id="2716678721" Name="Victory"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{298F2B69-0330-6435-0D41-FB4F6C254EA7}</FileHash>
+</SoundBanksInfo>

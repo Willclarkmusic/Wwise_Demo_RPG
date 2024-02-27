@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E6CE8350-7DB5-4B83-BAE7-48455D6DE480}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{E6CE8350-7DB5-4B83-BAE7-48455D6DE480}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="MasterBus" ID="{F7953761-479F-4824-8FA5-6C4630E687E6}"/>
+				<GameParameter Name="SFXBus" ID="{029D5364-74AE-42BF-A48C-56BAD78AF8AD}"/>
+				<GameParameter Name="MusicBus" ID="{0408B6F6-3EB9-4BD0-BD49-906A71B0BFF8}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

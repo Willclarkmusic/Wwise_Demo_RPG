@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1A0D7BB4-220D-41EC-8B07-9F6DBAE3C973}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{1A0D7BB4-220D-41EC-8B07-9F6DBAE3C973}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="PlayerLife" ID="{D668DA84-EAF3-4C60-B5C4-C743C4E06684}">
+					<ChildrenList>
+						<State Name="None" ID="{53E3FA87-D5D6-41BA-9040-A962AF5BFEB5}"/>
+						<State Name="Alive" ID="{DAC99080-B0A2-406D-9B8E-218EE7DD77E2}"/>
+						<State Name="Dead" ID="{AEA54E90-242C-4D16-9E7A-AA11837587EF}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="MusicState" ID="{02B6C7C3-CD24-43E5-9029-4F93FA107784}">
+					<ChildrenList>
+						<State Name="None" ID="{290A8801-07E4-45C1-BAE3-36157FECAB20}"/>
+						<State Name="MainExplore" ID="{FCB6BF74-02A3-45AC-8A1A-B0F5DB1886E0}"/>
+						<State Name="Dungeon" ID="{6F3B6FF3-63AF-4C11-80BE-8008BA2EE503}"/>
+						<State Name="Boss" ID="{7CAEB4E2-1414-4F82-9E45-1E8104BA9A44}"/>
+						<State Name="FinalArea" ID="{3A5D2653-7145-4594-AA14-79E5610A9EDC}"/>
+						<State Name="Victory" ID="{440B7EDB-DAB2-4F01-910B-3B6A5E2E9436}"/>
+						<State Name="Boss_Dead" ID="{98D80825-1337-4E2F-8307-9DB0E8586836}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="TerrainType" ID="{8A9DBEA6-2EC7-4B35-865B-F2F1F0F70279}">
+					<ChildrenList>
+						<State Name="None" ID="{7DFB5214-BC22-455F-8C5E-ED30BD4639CA}"/>
+						<State Name="Dirt" ID="{4E22BDC0-AC4D-4C91-88A2-D4162C414054}"/>
+						<State Name="Wood" ID="{364D6506-1FB9-41BD-8238-BCE4C7E5D231}"/>
+						<State Name="Brick" ID="{3C4CC799-F97D-4645-8D73-FF0170BBE4B8}"/>
+						<State Name="Grass" ID="{73E9987A-96E2-479A-8EA9-FED8E1BEF4A5}"/>
+						<State Name="Metal" ID="{2E35FC0A-C47D-4620-B7B0-D527B56C0BF4}"/>
+						<State Name="Pink" ID="{C621421B-79C8-4B1D-BFC2-B71850D04F47}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a335aaf16ef19db4b8511a2b4483a861, type: 3}
+  m_Name: C621421B-79C8-4B1D-BFC2-B71850D04F47
+  m_EditorClassIdentifier: 
+  objectName: Pink
+  id: 1944526589
+  guid: C621421B-79C8-4B1D-BFC2-B71850D04F47
+  WwiseStateGroupReference: {fileID: 11400000, guid: 06b4cd9f7183fc74aaa3384a7a291fc1, type: 2}

@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1E5A8CB2-9E96-461F-88A1-78E33E6D8E53}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{1E5A8CB2-9E96-461F-88A1-78E33E6D8E53}" PersistMode="Standalone">
-			<ChildrenList>
-				<Event Name="Play_ChickenCluck_BW_59839" ID="{BD53DF24-A5CE-445C-A7FC-6BC9C4E652B7}">
-					<ChildrenList>
-						<Action Name="" ID="{EF92CB89-8C1A-4709-8540-543B6E0D0AC2}" ShortID="398597165">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ChickenCluck_BW_59839" ID="{7BE1DDAF-1342-4CDF-A0F7-AD33B1178472}" WorkUnitID="{2B6A9B98-C92A-4900-8EAC-F0D0DCA9C986}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{1E5A8CB2-9E96-461F-88A1-78E33E6D8E53}" PersistMode="Standalone"/>
 	</Events>
 </WwiseDocument>

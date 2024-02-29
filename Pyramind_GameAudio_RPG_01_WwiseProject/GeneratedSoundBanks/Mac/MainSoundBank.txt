@@ -1,0 +1,29 @@
+Event	ID	Name			Wwise Object Path	Notes
+	98439365	Play_Player_Footsteps			\Default Work Unit\Play_Player_Footsteps	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	25772016	TerrainType			\Default Work Unit\TerrainType	
+
+State	ID	Name	State Group			Notes
+	504532776	Brick	TerrainType			
+	748895195	None	TerrainType			
+	1944526589	Pink	TerrainType			
+	2058049674	Wood	TerrainType			
+	2195636714	Dirt	TerrainType			
+	2473969246	Metal	TerrainType			
+	4248645337	Grass	TerrainType			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	11161334	FootSteps_Player_Dirt_02-11	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Mac\SFX\FootSteps_Player_Dirt_02-11_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Dirt\FootSteps_Player_Dirt_02-11		94496
+	114939666	FootSteps_Player_Wood_03-19	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Mac\SFX\FootSteps_Player_Wood_03-19_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Wood\FootSteps_Player_Wood_03-19		51440
+	156310521	FootSteps_Player_Wood_03-15	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Mac\SFX\FootSteps_Player_Wood_03-15_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Wood\FootSteps_Player_Wood_03-15		52856
+	204729878	FootSteps_Player_Dirt_02-12	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Mac\SFX\FootSteps_Player_Dirt_02-12_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Dirt\FootSteps_Player_Dirt_02-12		109792
+	219669965	FootSteps_Player_Dirt_02-07	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Mac\SFX\FootSteps_Player_Dirt_02-07_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Dirt\FootSteps_Player_Dirt_02-07		98656
+	290931387	FootSteps_Player_Wood_03-25	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Mac\SFX\FootSteps_Player_Wood_03-25_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Wood\FootSteps_Player_Wood_03-25		81304
+	291178532	FootSteps_Player_Wood_03-13	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Mac\SFX\FootSteps_Player_Wood_03-13_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Wood\FootSteps_Player_Wood_03-13		61208
+	330754302	FootSteps_Player_Dirt_02-05	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Mac\SFX\FootSteps_Player_Dirt_02-05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Dirt\FootSteps_Player_Dirt_02-05		91920
+	339755042	FootSteps_Player_Wood_03-22	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Mac\SFX\FootSteps_Player_Wood_03-22_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Wood\FootSteps_Player_Wood_03-22		63096
+	450044744	FootSteps_Player_Wood_03-27	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Mac\SFX\FootSteps_Player_Wood_03-27_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Wood\FootSteps_Player_Wood_03-27		55360
+	559184811	FootSteps_Player_Dirt_02-03	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Mac\SFX\FootSteps_Player_Dirt_02-03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Dirt\FootSteps_Player_Dirt_02-03		99136
+	691939597	FootSteps_Player_Dirt_02-09	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Mac\SFX\FootSteps_Player_Dirt_02-09_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Dirt\FootSteps_Player_Dirt_02-09		101120
+

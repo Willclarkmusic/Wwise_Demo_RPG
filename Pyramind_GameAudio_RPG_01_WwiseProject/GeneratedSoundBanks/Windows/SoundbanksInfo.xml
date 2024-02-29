@@ -2,16 +2,151 @@
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<RootPaths>
 		<ProjectRoot>../..</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Windows/</SourceFilesRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{C64578C4-D21A-6D65-34D9-9E378E24FFAA}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{A73FFCC6-60DB-09FF-6497-DABF22AD56F9}">
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
+			<Media>
+				<File Id="11161334" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Dirt_02-11.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Dirt_02-11_818F3B66.wem</CachePath>
+				</File>
+				<File Id="114939666" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Wood_03-19.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Wood_03-19_818F3B66.wem</CachePath>
+				</File>
+				<File Id="156310521" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Wood_03-15.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Wood_03-15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="204729878" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Dirt_02-12.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Dirt_02-12_818F3B66.wem</CachePath>
+				</File>
+				<File Id="219669965" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Dirt_02-07.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Dirt_02-07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="290931387" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Wood_03-25.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Wood_03-25_818F3B66.wem</CachePath>
+				</File>
+				<File Id="291178532" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Wood_03-13.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Wood_03-13_818F3B66.wem</CachePath>
+				</File>
+				<File Id="330754302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Dirt_02-05.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Dirt_02-05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="339755042" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Wood_03-22.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Wood_03-22_818F3B66.wem</CachePath>
+				</File>
+				<File Id="450044744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Wood_03-27.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Wood_03-27_818F3B66.wem</CachePath>
+				</File>
+				<File Id="559184811" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Dirt_02-03.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Dirt_02-03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="691939597" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Dirt_02-09.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Dirt_02-09_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="98439365" Name="Play_Player_Footsteps" DurationType="OneShot" DurationMin="0.26741666" DurationMax="0.57133335">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="25772016" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="114939666"/>
+								<MediaRef Id="156310521"/>
+								<MediaRef Id="290931387"/>
+								<MediaRef Id="291178532"/>
+								<MediaRef Id="339755042"/>
+								<MediaRef Id="450044744"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="25772016" Id="2473969246"/>
+							<MediaRefs>
+								<MediaRef Id="114939666"/>
+								<MediaRef Id="156310521"/>
+								<MediaRef Id="290931387"/>
+								<MediaRef Id="291178532"/>
+								<MediaRef Id="339755042"/>
+								<MediaRef Id="450044744"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="25772016" Id="1944526589"/>
+							<MediaRefs>
+								<MediaRef Id="114939666"/>
+								<MediaRef Id="156310521"/>
+								<MediaRef Id="290931387"/>
+								<MediaRef Id="291178532"/>
+								<MediaRef Id="339755042"/>
+								<MediaRef Id="450044744"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="25772016" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="114939666"/>
+								<MediaRef Id="156310521"/>
+								<MediaRef Id="290931387"/>
+								<MediaRef Id="291178532"/>
+								<MediaRef Id="339755042"/>
+								<MediaRef Id="450044744"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="25772016" Id="504532776"/>
+							<MediaRefs>
+								<MediaRef Id="114939666"/>
+								<MediaRef Id="156310521"/>
+								<MediaRef Id="290931387"/>
+								<MediaRef Id="291178532"/>
+								<MediaRef Id="339755042"/>
+								<MediaRef Id="450044744"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="25772016" Id="2195636714" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="11161334"/>
+								<MediaRef Id="204729878"/>
+								<MediaRef Id="219669965"/>
+								<MediaRef Id="330754302"/>
+								<MediaRef Id="559184811"/>
+								<MediaRef Id="691939597"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="25772016" Name="TerrainType">
+					<States>
+						<State Id="504532776" Name="Brick"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1944526589" Name="Pink"/>
+						<State Id="2058049674" Name="Wood"/>
+						<State Id="2195636714" Name="Dirt"/>
+						<State Id="2473969246" Name="Metal"/>
+						<State Id="4248645337" Name="Grass"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{29C585B3-B23B-C8EA-35D4-2BD2C8B56339}">
 			<ShortName>Init</ShortName>
@@ -79,5 +214,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{73BA6FDD-BDF0-0979-8FF5-0E5065851BCB}</FileHash>
+	<FileHash>{20BAF82E-FA99-FE12-ED16-CD4C89504EE7}</FileHash>
 </SoundBanksInfo>

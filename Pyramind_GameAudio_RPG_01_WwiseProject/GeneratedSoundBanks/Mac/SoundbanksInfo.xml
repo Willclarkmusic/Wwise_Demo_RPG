@@ -2,29 +2,16 @@
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<RootPaths>
 		<ProjectRoot>../..</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SourceFilesRoot>../../.cache/Mac/</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{A528C4B2-552A-0ADD-E8B3-D6D65491449A}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{C64578C4-D21A-6D65-34D9-9E378E24FFAA}">
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
-			<Media>
-				<File Id="520840252" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ChickenCluck_BW.59839.wav</ShortName>
-					<CachePath>SFX/ChickenCluck_BW.59839_818F3B66.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="1308196106" Name="Play_ChickenCluck_BW_59839" DurationType="OneShot" DurationMin="7.0453334" DurationMax="7.0453334">
-					<MediaRefs>
-						<MediaRef Id="520840252"/>
-					</MediaRefs>
-				</Event>
-			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A671F08A-9411-7562-CECB-766FC2816D5B}">
 			<ShortName>Init</ShortName>
@@ -92,5 +79,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E32A5DD9-5DE2-6132-B87C-13DB414FFCCC}</FileHash>
+	<FileHash>{6CB9E6C2-87B9-EBC2-83C8-4917C3EBA486}</FileHash>
 </SoundBanksInfo>

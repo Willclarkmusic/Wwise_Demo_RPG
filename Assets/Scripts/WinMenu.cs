@@ -50,6 +50,7 @@ public class WinMenu : MonoBehaviour
 
     public void Resume()
     {
+        AkSoundEngine.SetState("GameState", "Play");
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1;
         GameIsPaused = false;
@@ -58,6 +59,7 @@ public class WinMenu : MonoBehaviour
 
     public void Pause()
     {
+        AkSoundEngine.SetState("GameState", "Menu");
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0;
         GameIsPaused = true;

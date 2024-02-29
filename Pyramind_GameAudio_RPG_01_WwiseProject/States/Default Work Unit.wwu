@@ -32,6 +32,22 @@
 						<State Name="Pink" ID="{C621421B-79C8-4B1D-BFC2-B71850D04F47}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="GameState" ID="{8DD8F359-FEE6-44A3-B4DB-4054B05EE375}">
+					<ChildrenList>
+						<State Name="None" ID="{8A8BB1C6-AE92-448A-851F-525E6A86B320}"/>
+						<State Name="Play" ID="{A70CAF7C-23FB-493C-BAF3-6F61F1F22095}"/>
+						<State Name="Menu" ID="{37D56555-00E6-4C7C-941E-1386F4BB996F}"/>
+						<State Name="Win" ID="{1BDAA091-4F30-4271-95F7-501D78B08152}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="ChickenState" ID="{D1853563-C457-45B5-BABA-EAABC271E8E6}">
+					<ChildrenList>
+						<State Name="None" ID="{B2569C6F-1954-431B-9271-4A4B3FD033A8}"/>
+						<State Name="Patrolling" ID="{B7D67C4F-7674-4C92-AE28-1FB228921B7C}"/>
+						<State Name="Chasing" ID="{6EB5BD69-FC7E-41D2-9155-27FCD120F45A}"/>
+						<State Name="Dead" ID="{12F151F6-09F6-4C2C-B872-261AABD740B4}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

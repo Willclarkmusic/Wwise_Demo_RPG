@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     [SerializeField] private Transform Player;
-    [SerializeField] private float CameraOffset = -10f;
+    [SerializeField] private float CameraOffset = -20f;
 
     // Update is called once per frame
     void Update()

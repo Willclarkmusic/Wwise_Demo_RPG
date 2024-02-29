@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 65bc920c8effff4a968251e590cabca6
     GuidInternal: 
-    m_lastTime: -8584930135414297879
+    m_lastTime: -8584924168609487574
     List:
     - name: MainSoundBank
       guid: f695673f3d92ca4ca79910cc3978154a
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b28c5a1e969e1f4688a178e33e6d8e53
     GuidInternal: 
-    m_lastTime: -8584930135667797089
-    List: []
+    m_lastTime: -8584924168609697606
+    List:
+    - name: Play_ChickenCluck_BW_59839
+      guid: 24df53bdcea55c44a7fc6bc9c4e652b7
+      id: 1308196106
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b28c5a1e969e1f4688a178e33e6d8e53
+      - ElementName: Play_ChickenCluck_BW_59839
+        ObjectType: 3
+        guid: 24df53bdcea55c44a7fc6bc9c4e652b7
+      Path: Events\Default Work Unit\Play_ChickenCluck_BW_59839
+      maxAttenuation: 0
+      maxDuration: 7.0453334
+      minDuration: 7.0453334
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -164,8 +181,172 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: b47b0d1a0d22ec418b079f6dbae3c973
     GuidInternal: 
-    m_lastTime: -8584930539556561400
+    m_lastTime: -8584924168609592591
     List:
+    - name: ChickenState
+      guid: 633585d157c4b545babaeaabc271e8e6
+      id: 1883495397
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b47b0d1a0d22ec418b079f6dbae3c973
+      - ElementName: ChickenState
+        ObjectType: 9
+        guid: 633585d157c4b545babaeaabc271e8e6
+      Path: States\Default Work Unit\ChickenState
+      values:
+      - name: Chasing
+        guid: 69bdb56e7efcd241915527fcd120f45a
+        id: 1516571116
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b47b0d1a0d22ec418b079f6dbae3c973
+        - ElementName: ChickenState
+          ObjectType: 9
+          guid: 633585d157c4b545babaeaabc271e8e6
+        - ElementName: Chasing
+          ObjectType: 8
+          guid: 69bdb56e7efcd241915527fcd120f45a
+      - name: Dead
+        guid: f651f112f6092c4cb872261aabd740b4
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b47b0d1a0d22ec418b079f6dbae3c973
+        - ElementName: ChickenState
+          ObjectType: 9
+          guid: 633585d157c4b545babaeaabc271e8e6
+        - ElementName: Dead
+          ObjectType: 8
+          guid: f651f112f6092c4cb872261aabd740b4
+      - name: None
+        guid: 6f9c56b254191b4392714a4b3fd033a8
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b47b0d1a0d22ec418b079f6dbae3c973
+        - ElementName: ChickenState
+          ObjectType: 9
+          guid: 633585d157c4b545babaeaabc271e8e6
+        - ElementName: None
+          ObjectType: 8
+          guid: 6f9c56b254191b4392714a4b3fd033a8
+      - name: Patrolling
+        guid: 4f7cd6b77476924cae281fb228921b7c
+        id: 2799695215
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b47b0d1a0d22ec418b079f6dbae3c973
+        - ElementName: ChickenState
+          ObjectType: 9
+          guid: 633585d157c4b545babaeaabc271e8e6
+        - ElementName: Patrolling
+          ObjectType: 8
+          guid: 4f7cd6b77476924cae281fb228921b7c
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: GameState
+      guid: 59f3d88de6fea344b4db4054b05ee375
+      id: 4091656514
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b47b0d1a0d22ec418b079f6dbae3c973
+      - ElementName: GameState
+        ObjectType: 9
+        guid: 59f3d88de6fea344b4db4054b05ee375
+      Path: States\Default Work Unit\GameState
+      values:
+      - name: Menu
+        guid: 5565d537e6007c4c941e1386f4bb996f
+        id: 2607556080
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b47b0d1a0d22ec418b079f6dbae3c973
+        - ElementName: GameState
+          ObjectType: 9
+          guid: 59f3d88de6fea344b4db4054b05ee375
+        - ElementName: Menu
+          ObjectType: 8
+          guid: 5565d537e6007c4c941e1386f4bb996f
+      - name: None
+        guid: c6b18b8a92ae8a44851f525e6a86b320
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b47b0d1a0d22ec418b079f6dbae3c973
+        - ElementName: GameState
+          ObjectType: 9
+          guid: 59f3d88de6fea344b4db4054b05ee375
+        - ElementName: None
+          ObjectType: 8
+          guid: c6b18b8a92ae8a44851f525e6a86b320
+      - name: Play
+        guid: 7caf0ca7fb233c49baf36f61f1f22095
+        id: 1256202815
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b47b0d1a0d22ec418b079f6dbae3c973
+        - ElementName: GameState
+          ObjectType: 9
+          guid: 59f3d88de6fea344b4db4054b05ee375
+        - ElementName: Play
+          ObjectType: 8
+          guid: 7caf0ca7fb233c49baf36f61f1f22095
+      - name: Win
+        guid: 91a0da1b304f714295f7501d78b08152
+        id: 979765101
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b47b0d1a0d22ec418b079f6dbae3c973
+        - ElementName: GameState
+          ObjectType: 9
+          guid: 59f3d88de6fea344b4db4054b05ee375
+        - ElementName: Win
+          ObjectType: 8
+          guid: 91a0da1b304f714295f7501d78b08152
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: MusicState
       guid: c3c7b60224cde54390294f93fa107784
       id: 1021618141
@@ -521,7 +702,7 @@ MonoBehaviour:
     m_lastTime: -8584936642815785915
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000b0000000c0000000e0000000f0000001600000017000000180000001b0000001f000000240000002700000035000000b40d0000
+  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000b0000000c0000000e0000000f0000001600000017000000180000001b0000001f00000024000000270000002f00000035000000b40d0000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

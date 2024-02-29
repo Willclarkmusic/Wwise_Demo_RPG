@@ -89,6 +89,7 @@ public class Player_Movement : MonoBehaviour
         }
         else if (trig.gameObject.CompareTag("WinState"))
         {
+
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)

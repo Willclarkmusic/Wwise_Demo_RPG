@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1308196106	Play_ChickenCluck_BW_59839			\Default Work Unit\Play_ChickenCluck_BW_59839	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1883495397	ChickenState			\Default Work Unit\ChickenState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	ChickenState			
+	1516571116	Chasing	ChickenState			
+	2044049779	Dead	ChickenState			
+	2799695215	Patrolling	ChickenState			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	520840252	ChickenCluck_BW_59839	C:\Users\BB8\Desktop\Pyramind\VideoGameAudio\GitHub_repos\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Mac\SFX\ChickenCluck_BW.59839_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChickenCluck_BW_59839		1352800
+

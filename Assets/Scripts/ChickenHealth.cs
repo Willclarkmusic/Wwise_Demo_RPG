@@ -25,6 +25,7 @@ public class ChickenHealth : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            
             chickenHealth -= 1;
         }
     }

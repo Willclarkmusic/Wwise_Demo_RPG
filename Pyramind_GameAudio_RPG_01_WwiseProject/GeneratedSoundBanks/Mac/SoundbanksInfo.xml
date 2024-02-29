@@ -9,11 +9,24 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{C64578C4-D21A-6D65-34D9-9E378E24FFAA}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{A528C4B2-552A-0ADD-E8B3-D6D65491449A}">
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
+			<Media>
+				<File Id="520840252" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ChickenCluck_BW.59839.wav</ShortName>
+					<CachePath>SFX/ChickenCluck_BW.59839_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1308196106" Name="Play_ChickenCluck_BW_59839" DurationType="OneShot" DurationMin="7.0453334" DurationMax="7.0453334">
+					<MediaRefs>
+						<MediaRef Id="520840252"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{33949BEE-AE87-CF48-476F-FF28F1FE3889}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A671F08A-9411-7562-CECB-766FC2816D5B}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -60,8 +73,24 @@
 						<State Id="2716678721" Name="Victory"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="1883495397" Name="ChickenState">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1516571116" Name="Chasing"/>
+						<State Id="2044049779" Name="Dead"/>
+						<State Id="2799695215" Name="Patrolling"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4091656514" Name="GameState">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979765101" Name="Win"/>
+						<State Id="1256202815" Name="Play"/>
+						<State Id="2607556080" Name="Menu"/>
+					</States>
+				</StateGroup>
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{298F2B69-0330-6435-0D41-FB4F6C254EA7}</FileHash>
+	<FileHash>{E32A5DD9-5DE2-6132-B87C-13DB414FFCCC}</FileHash>
 </SoundBanksInfo>

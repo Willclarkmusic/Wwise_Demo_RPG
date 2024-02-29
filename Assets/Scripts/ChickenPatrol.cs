@@ -19,6 +19,11 @@ public class ChickenPatrol : MonoBehaviour
     public float stopAttacking = 20f;
     public float attackRange = 10f;
     public int chickenHealth = 3;
+    private Chicken_Audio chickenAudio;
+    private bool chickenDead = false;
+    private bool chickenPatroling = true;
+    private bool chickenChasing = false;
+
 
     private SpriteRenderer spriteRenderer;
     private Transform playerPos;
@@ -36,6 +41,7 @@ public class ChickenPatrol : MonoBehaviour
         currentPos = PointB.transform;
         animator.SetBool("isPatrolling", false);
         animator.SetBool("isChasing", false);
+        chickenAudio = GetComponent<Chicken_Audio>();
 
     }
 
@@ -45,16 +51,22 @@ public class ChickenPatrol : MonoBehaviour
 
         if (Vector2.Distance(transform.position, playerPos.position) < attackRange)
         {
+            if (chickenDead == false)
+            {
+                AkSoundEngine.SetState("ChickenState", "Chasing");
+            }
+
             animator.SetBool("isChasing", true);
         }
 
+
         if (rb.velocity.x < 0f)
         {
-            spriteRenderer.flipX = false;
+            spriteRenderer.flipX = true;
         }
         else if (rb.velocity.x > 0f)
         {
-            spriteRenderer.flipX = true;
+            spriteRenderer.flipX = false;
         }
 
 
@@ -88,8 +100,10 @@ public class ChickenPatrol : MonoBehaviour
 
     }
 
+
     public void TakeDamage(int damageAmnt)
     {
+        chickenAudio.playChickenGetHit();
         chickenHealth -= damageAmnt;
         if (chickenHealth <= 0)
         {
@@ -97,12 +111,19 @@ public class ChickenPatrol : MonoBehaviour
         }
         else if (chickenHealth > 0)
         {
-            animator.SetTrigger("isHit");
+            animator.Play("Hit");
+            //animator.SetBool("isHit", true);
         }
     }
 
     private void Die()
     {
+        if (chickenDead == false) ;
+        {
+            AkSoundEngine.SetState("ChickenState", "Dead");
+            chickenAudio.playChickenDeath();
+            chickenDead = true;
+        }
         Destroy(gameObject);
         Instantiate(pfChickenDie, transform.position, Quaternion.identity);
         animator.SetTrigger("Die");

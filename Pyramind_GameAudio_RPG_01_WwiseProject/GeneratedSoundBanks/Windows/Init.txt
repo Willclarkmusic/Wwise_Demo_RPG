@@ -2,6 +2,8 @@ State Group	ID	Name			Wwise Object Path	Notes
 	25772016	TerrainType			\Default Work Unit\TerrainType	
 	444815956	PlayerLife			\Default Work Unit\PlayerLife	
 	1021618141	MusicState			\Default Work Unit\MusicState	
+	1883495397	ChickenState			\Default Work Unit\ChickenState	
+	4091656514	GameState			\Default Work Unit\GameState	
 
 State	ID	Name	State Group			Notes
 	504532776	Brick	TerrainType			
@@ -21,6 +23,14 @@ State	ID	Name	State Group			Notes
 	1560169506	Boss	MusicState			
 	2610870411	MainExplore	MusicState			
 	2716678721	Victory	MusicState			
+	748895195	None	ChickenState			
+	1516571116	Chasing	ChickenState			
+	2044049779	Dead	ChickenState			
+	2799695215	Patrolling	ChickenState			
+	748895195	None	GameState			
+	979765101	Win	GameState			
+	1256202815	Play	GameState			
+	2607556080	Menu	GameState			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	835198467	MasterBus			\Default Work Unit\MasterBus	

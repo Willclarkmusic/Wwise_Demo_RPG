@@ -41,7 +41,7 @@ public class Player_Audio : MonoBehaviour
     }
     public void playCollectFruitSound()
     {
-        bounceSound.Post(gameObject);
+        collectFruitSound.Post(gameObject);
     }
     public void playDeathSound()
     {

@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 65bc920c8effff4a968251e590cabca6
     GuidInternal: 
-    m_lastTime: -8584924168609487574
+    m_lastTime: -8584908050951790425
     List:
     - name: MainSoundBank
       guid: f695673f3d92ca4ca79910cc3978154a
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b28c5a1e969e1f4688a178e33e6d8e53
     GuidInternal: 
-    m_lastTime: -8584924168609697606
+    m_lastTime: -8584908050952415526
     List:
     - name: Play_ChickenCluck_BW_59839
       guid: 24df53bdcea55c44a7fc6bc9c4e652b7
@@ -181,7 +181,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: b47b0d1a0d22ec418b079f6dbae3c973
     GuidInternal: 
-    m_lastTime: -8584924168609592591
+    m_lastTime: -8584908050951775416
     List:
     - name: ChickenState
       guid: 633585d157c4b545babaeaabc271e8e6

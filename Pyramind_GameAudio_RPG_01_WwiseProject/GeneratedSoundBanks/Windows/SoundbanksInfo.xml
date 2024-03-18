@@ -2,16 +2,29 @@
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<RootPaths>
 		<ProjectRoot>../..</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Windows/</SourceFilesRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{C64578C4-D21A-6D65-34D9-9E378E24FFAA}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{A528C4B2-552A-0ADD-E8B3-D6D65491449A}">
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
+			<Media>
+				<File Id="520840252" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ChickenCluck_BW.59839.wav</ShortName>
+					<CachePath>SFX/ChickenCluck_BW.59839_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1308196106" Name="Play_ChickenCluck_BW_59839" DurationType="OneShot" DurationMin="7.0453334" DurationMax="7.0453334">
+					<MediaRefs>
+						<MediaRef Id="520840252"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{29C585B3-B23B-C8EA-35D4-2BD2C8B56339}">
 			<ShortName>Init</ShortName>
@@ -79,5 +92,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{73BA6FDD-BDF0-0979-8FF5-0E5065851BCB}</FileHash>
+	<FileHash>{72201D91-5B9C-0A65-F8D1-1098E56B2353}</FileHash>
 </SoundBanksInfo>

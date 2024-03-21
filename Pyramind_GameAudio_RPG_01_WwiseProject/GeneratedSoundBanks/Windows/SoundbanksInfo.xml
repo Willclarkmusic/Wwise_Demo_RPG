@@ -9,13 +9,17 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{A73FFCC6-60DB-09FF-6497-DABF22AD56F9}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{849518B2-6249-E51F-6531-45D249231F89}">
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
 			<Media>
 				<File Id="11161334" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps_Player_Dirt_02-11.wav</ShortName>
 					<CachePath>SFX/FootSteps_Player_Dirt_02-11_818F3B66.wem</CachePath>
+				</File>
+				<File Id="88689544" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A1.wav</ShortName>
+					<CachePath>SFX/A1_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="114939666" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps_Player_Wood_03-19.wav</ShortName>
@@ -49,6 +53,10 @@
 					<ShortName>FootSteps_Player_Wood_03-22.wav</ShortName>
 					<CachePath>SFX/FootSteps_Player_Wood_03-22_818F3B66.wem</CachePath>
 				</File>
+				<File Id="411456419" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B1.wav</ShortName>
+					<CachePath>SFX/B1_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="450044744" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps_Player_Wood_03-27.wav</ShortName>
 					<CachePath>SFX/FootSteps_Player_Wood_03-27_818F3B66.wem</CachePath>
@@ -57,12 +65,43 @@
 					<ShortName>FootSteps_Player_Dirt_02-03.wav</ShortName>
 					<CachePath>SFX/FootSteps_Player_Dirt_02-03_818F3B66.wem</CachePath>
 				</File>
+				<File Id="648696887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A3.wav</ShortName>
+					<CachePath>SFX/A3_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="691939597" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps_Player_Dirt_02-09.wav</ShortName>
 					<CachePath>SFX/FootSteps_Player_Dirt_02-09_818F3B66.wem</CachePath>
 				</File>
+				<File Id="795824513" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B2.wav</ShortName>
+					<CachePath>SFX/B2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="967538972" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A2.wav</ShortName>
+					<CachePath>SFX/A2_FBC78EF0.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="4145153789" Name="Play_Music_Lvl1" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="2610870411"/>
+							<MediaRefs>
+								<MediaRef Id="88689544"/>
+								<MediaRef Id="648696887"/>
+								<MediaRef Id="967538972"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="608898761"/>
+							<MediaRefs>
+								<MediaRef Id="411456419"/>
+								<MediaRef Id="795824513"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="98439365" Name="Play_Player_Footsteps" DurationType="OneShot" DurationMin="0.26741666" DurationMax="0.57133335">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -146,6 +185,17 @@
 						<State Id="4248645337" Name="Grass"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="1021618141" Name="MusicState">
+					<States>
+						<State Id="608898761" Name="Dungeon"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1165767839" Name="Boss_Dead"/>
+						<State Id="1177409132" Name="FinalArea"/>
+						<State Id="1560169506" Name="Boss"/>
+						<State Id="2610870411" Name="MainExplore"/>
+						<State Id="2716678721" Name="Victory"/>
+					</States>
+				</StateGroup>
 			</StateGroups>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{29C585B3-B23B-C8EA-35D4-2BD2C8B56339}">
@@ -214,5 +264,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{20BAF82E-FA99-FE12-ED16-CD4C89504EE7}</FileHash>
+	<FileHash>{C2339D31-B190-50E5-E971-302437AF24C8}</FileHash>
 </SoundBanksInfo>

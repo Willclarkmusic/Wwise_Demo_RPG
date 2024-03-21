@@ -66,7 +66,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 65bc920c8effff4a968251e590cabca6
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8584908050951790425
+=======
+    m_lastTime: -8584911609091725058
+>>>>>>> Stashed changes
     List:
     - name: MainSoundBank
       guid: f695673f3d92ca4ca79910cc3978154a
@@ -94,11 +98,36 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b28c5a1e969e1f4688a178e33e6d8e53
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8584908050952415526
     List:
     - name: Play_ChickenCluck_BW_59839
       guid: 24df53bdcea55c44a7fc6bc9c4e652b7
       id: 1308196106
+=======
+    m_lastTime: -8584911614727377349
+    List:
+    - name: Play_Music_Lvl1
+      guid: 28258a3988e0af45a4a67632f7043362
+      id: 4145153789
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b28c5a1e969e1f4688a178e33e6d8e53
+      - ElementName: Play_Music_Lvl1
+        ObjectType: 3
+        guid: 28258a3988e0af45a4a67632f7043362
+      Path: Events/Default Work Unit/Play_Music_Lvl1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Player_Footsteps
+      guid: fb434c3ee04bf44eabad6bf72092c9fb
+      id: 98439365
+>>>>>>> Stashed changes
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -702,7 +731,11 @@ MonoBehaviour:
     m_lastTime: -8584936642815785915
     List: []
   ExpandedFileSystemItemIds: 
+<<<<<<< Updated upstream
   ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000b0000000c0000000e0000000f0000001600000017000000180000001b0000001f00000024000000270000002f00000035000000b40d0000
+=======
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000016000000170000001b0000001f00000024000000270000002f00000035000000b40d0000
+>>>>>>> Stashed changes
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

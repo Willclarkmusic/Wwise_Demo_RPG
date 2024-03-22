@@ -14,12 +14,56 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Music_Lvl1" ID="{398A2528-E088-45AF-A4A6-7632F7043362}">
+				<Event Name="Play_Music_lvl_01" ID="{F3FB1FBF-C709-4559-AC3F-54B29C1FA919}">
 					<ChildrenList>
-						<Action Name="" ID="{BA171315-428D-4ED6-8EA8-E065B4D93788}" ShortID="571826506">
+						<Action Name="" ID="{FED15C16-9155-4A51-BB4E-58407E8C269B}" ShortID="27540025">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Music_Lvl1" ID="{91E9ABBB-7063-4D4D-AE72-1F451A1991EE}" WorkUnitID="{16E0B4C6-FE49-4AE3-9A36-0640C9E7FF34}"/>
+									<ObjectRef Name="Music_lvl_01" ID="{70E1435F-9AFF-4A1D-957B-FA0E8996749A}" WorkUnitID="{16E0B4C6-FE49-4AE3-9A36-0640C9E7FF34}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambience_lvl1" ID="{54F456ED-538E-4A00-A517-D9C18B1914FD}">
+					<ChildrenList>
+						<Action Name="" ID="{4AA54132-72BF-4FE1-8D79-C37884B8215D}" ShortID="554938850">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_lvl1" ID="{5FE38E19-8FF6-466C-AC87-6EF1E2520E0A}" WorkUnitID="{2B6A9B98-C92A-4900-8EAC-F0D0DCA9C986}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CollectBerry" ID="{85EF9864-13FC-4309-9747-A36D24632C78}">
+					<ChildrenList>
+						<Action Name="" ID="{848F424E-AE37-443C-9FE5-A2264E38CABA}" ShortID="20512095">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CollectBerry" ID="{5AB3D4BE-817D-4058-936B-8F642D1B76D6}" WorkUnitID="{2B6A9B98-C92A-4900-8EAC-F0D0DCA9C986}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Jump" ID="{1E571F12-BD6E-4D23-9D65-D9CD28FE6001}">
+					<ChildrenList>
+						<Action Name="" ID="{16D8B2CB-6BE8-4170-94FC-B10B55177C4E}" ShortID="210875801">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{3972EE36-52AD-4C94-BB37-A24FC3500842}" WorkUnitID="{2B6A9B98-C92A-4900-8EAC-F0D0DCA9C986}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Saw" ID="{B82B00FD-BF4C-4B2B-B366-E8F524938FF6}">
+					<ChildrenList>
+						<Action Name="" ID="{541BADD9-8CE7-4360-8B87-051E6019B1EC}" ShortID="517028089">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Saw" ID="{DF5196A9-A28E-4DE2-B4FC-6998B5359C3B}" WorkUnitID="{2B6A9B98-C92A-4900-8EAC-F0D0DCA9C986}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CCC7AA47-358C-49B8-AB5C-8365F97206EF}" SchemaVersion="119">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{CCC7AA47-358C-49B8-AB5C-8365F97206EF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CCC7AA47-358C-49B8-AB5C-8365F97206EF}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Main_Lvl01" ID="{0AAC1E4C-C936-48F4-B82C-ED7B0C781592}">
+					<ObjectList>
+						<ObjectRef Name="Player_Footsteps" ID="{FF0B907B-583C-404B-91C0-2F0E674B2B3A}" WorkUnitID="{2B6A9B98-C92A-4900-8EAC-F0D0DCA9C986}"/>
+						<ObjectRef Name="Ambience_lvl1" ID="{5FE38E19-8FF6-466C-AC87-6EF1E2520E0A}" WorkUnitID="{2B6A9B98-C92A-4900-8EAC-F0D0DCA9C986}"/>
+						<ObjectRef Name="CollectBerry" ID="{5AB3D4BE-817D-4058-936B-8F642D1B76D6}" WorkUnitID="{2B6A9B98-C92A-4900-8EAC-F0D0DCA9C986}"/>
+						<ObjectRef Name="Jump" ID="{3972EE36-52AD-4C94-BB37-A24FC3500842}" WorkUnitID="{2B6A9B98-C92A-4900-8EAC-F0D0DCA9C986}"/>
+						<ObjectRef Name="Saw" ID="{DF5196A9-A28E-4DE2-B4FC-6998B5359C3B}" WorkUnitID="{2B6A9B98-C92A-4900-8EAC-F0D0DCA9C986}"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AADA71D5-D869-4A31-92C5-DDC1D20B230C}"/>
+						<ObjectRef Name="Music_lvl_01" ID="{70E1435F-9AFF-4A1D-957B-FA0E8996749A}" WorkUnitID="{16E0B4C6-FE49-4AE3-9A36-0640C9E7FF34}"/>
+						<ObjectRef Name="Music" ID="{59B904BA-8FDB-4B68-B755-E672CBF10D65}" WorkUnitID="{AADA71D5-D869-4A31-92C5-DDC1D20B230C}"/>
+						<ObjectRef Name="SFX" ID="{435B50AE-350B-40C1-8700-ADA8D37958A7}" WorkUnitID="{AADA71D5-D869-4A31-92C5-DDC1D20B230C}"/>
+						<ObjectRef Name="Env" ID="{C3AD34AA-FBB4-42FE-99B8-CBD2BEA4103E}" WorkUnitID="{AADA71D5-D869-4A31-92C5-DDC1D20B230C}"/>
+						<ObjectRef Name="Player" ID="{AB8862B5-2827-4A35-BBD9-506EB02C1B4F}" WorkUnitID="{AADA71D5-D869-4A31-92C5-DDC1D20B230C}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

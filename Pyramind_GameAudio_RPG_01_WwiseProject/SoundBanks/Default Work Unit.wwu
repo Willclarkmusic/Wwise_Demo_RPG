@@ -5,7 +5,11 @@
 			<ChildrenList>
 				<SoundBank Name="MainSoundBank" ID="{3F6795F6-923D-4CCA-A799-10CC3978154A}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Music_Lvl1" ID="{398A2528-E088-45AF-A4A6-7632F7043362}" WorkUnitID="{1E5A8CB2-9E96-461F-88A1-78E33E6D8E53}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CollectBerry" ID="{85EF9864-13FC-4309-9747-A36D24632C78}" WorkUnitID="{1E5A8CB2-9E96-461F-88A1-78E33E6D8E53}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music_lvl_01" ID="{F3FB1FBF-C709-4559-AC3F-54B29C1FA919}" WorkUnitID="{1E5A8CB2-9E96-461F-88A1-78E33E6D8E53}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambience_lvl1" ID="{54F456ED-538E-4A00-A517-D9C18B1914FD}" WorkUnitID="{1E5A8CB2-9E96-461F-88A1-78E33E6D8E53}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Saw" ID="{B82B00FD-BF4C-4B2B-B366-E8F524938FF6}" WorkUnitID="{1E5A8CB2-9E96-461F-88A1-78E33E6D8E53}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Jump" ID="{1E571F12-BD6E-4D23-9D65-D9CD28FE6001}" WorkUnitID="{1E5A8CB2-9E96-461F-88A1-78E33E6D8E53}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Footsteps" ID="{3E4C43FB-4BE0-4EF4-ABAD-6BF72092C9FB}" WorkUnitID="{1E5A8CB2-9E96-461F-88A1-78E33E6D8E53}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

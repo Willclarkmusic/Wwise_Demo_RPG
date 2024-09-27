@@ -1,15 +1,55 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1308196106	Play_ChickenCluck_BW_59839			\Default Work Unit\Play_ChickenCluck_BW_59839	
+	98439365	Play_Player_Footsteps			\Default Work Unit\Play_Player_Footsteps	
+	476598082	Play_Ambience_lvl1			\Default Work Unit\Play_Ambience_lvl1	
+	1794670904	Play_CollectBerry			\Default Work Unit\Play_CollectBerry	
+	3165431594	Play_Music_lvl_01			\Default Work Unit\Play_Music_lvl_01	
+	3225017965	Play_Saw			\Default Work Unit\Play_Saw	
+	3689126666	Play_Jump			\Default Work Unit\Play_Jump	
 
 State Group	ID	Name			Wwise Object Path	Notes
-	1883495397	ChickenState			\Default Work Unit\ChickenState	
+	25772016	TerrainType			\Default Work Unit\TerrainType	
+	1021618141	MusicState			\Default Work Unit\MusicState	
 
 State	ID	Name	State Group			Notes
-	748895195	None	ChickenState			
-	1516571116	Chasing	ChickenState			
-	2044049779	Dead	ChickenState			
-	2799695215	Patrolling	ChickenState			
+	504532776	Brick	TerrainType			
+	748895195	None	TerrainType			
+	1944526589	Pink	TerrainType			
+	2058049674	Wood	TerrainType			
+	2195636714	Dirt	TerrainType			
+	2473969246	Metal	TerrainType			
+	4248645337	Grass	TerrainType			
+	608898761	Dungeon	MusicState			
+	748895195	None	MusicState			
+	1165767839	Boss_Dead	MusicState			
+	1177409132	FinalArea	MusicState			
+	1560169506	Boss	MusicState			
+	2610870411	MainExplore	MusicState			
+	2716678721	Victory	MusicState			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	520840252	ChickenCluck_BW_59839	C:\Users\BB8\Desktop\Pyramind\VideoGameAudio\GitHub_repos\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\ChickenCluck_BW.59839_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChickenCluck_BW_59839		1352800
+	11161334	FootSteps_Player_Dirt_02-11	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\FootSteps_Player_Dirt_02-11_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Dirt\FootSteps_Player_Dirt_02-11		94496
+	35136268	Saw	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\ESM_Table_Saw_3_Garage_Shed_Tools_Industrial_Building_Carpenter_4D2329A0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Saw		3049944
+	46913029	C	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\C_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music_lvl_01\BossFight\C\C		4388668
+	88689544	A1	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\A1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music_lvl_01\Explore\A1\A1		4388668
+	114939666	FootSteps_Player_Wood_03-19	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\FootSteps_Player_Wood_03-19_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Wood\FootSteps_Player_Wood_03-19		51440
+	156310521	FootSteps_Player_Wood_03-15	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\FootSteps_Player_Wood_03-15_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Wood\FootSteps_Player_Wood_03-15		52856
+	204729878	FootSteps_Player_Dirt_02-12	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\FootSteps_Player_Dirt_02-12_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Dirt\FootSteps_Player_Dirt_02-12		109792
+	219669965	FootSteps_Player_Dirt_02-07	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\FootSteps_Player_Dirt_02-07_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Dirt\FootSteps_Player_Dirt_02-07		98656
+	290931387	FootSteps_Player_Wood_03-25	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\FootSteps_Player_Wood_03-25_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Wood\FootSteps_Player_Wood_03-25		81304
+	291178532	FootSteps_Player_Wood_03-13	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\FootSteps_Player_Wood_03-13_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Wood\FootSteps_Player_Wood_03-13		61208
+	330754302	FootSteps_Player_Dirt_02-05	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\FootSteps_Player_Dirt_02-05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Dirt\FootSteps_Player_Dirt_02-05		91920
+	339755042	FootSteps_Player_Wood_03-22	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\FootSteps_Player_Wood_03-22_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Wood\FootSteps_Player_Wood_03-22		63096
+	346298345	Dungeon_amb_01	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\Dungeon_amb_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience_lvl1\Dungeon_amb_01		10080096
+	411456419	B1	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\B1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music_lvl_01\Dungeon\B1\B1		4388668
+	450044744	FootSteps_Player_Wood_03-27	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\FootSteps_Player_Wood_03-27_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Wood\FootSteps_Player_Wood_03-27		55360
+	559184811	FootSteps_Player_Dirt_02-03	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\FootSteps_Player_Dirt_02-03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Dirt\FootSteps_Player_Dirt_02-03		99136
+	638474851	Jump	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\WhipWhooshRope_S011FO.984_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump		128096
+	648696887	A3	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\A3_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music_lvl_01\A3\A3		4388668
+	691939597	FootSteps_Player_Dirt_02-09	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\FootSteps_Player_Dirt_02-09_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\Player_Footsteps_Dirt\FootSteps_Player_Dirt_02-09		101120
+	753299733	CollectBerry	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\MO_TDA_synth_bell_perfect_dry_C_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\CollectBerry		514384
+	795824513	B2	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\B2_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music_lvl_01\Dungeon\B2\B2		4388668
+	833920039	ChickenDeath	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\ChickenDeath_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music_lvl_01\ChickenDeath\ChickenDeath		1755528
+	967538972	A2	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\A2_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music_lvl_01\Explore\A2\A2		4388668
+	970498074	Win	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\Win_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music_lvl_01\Win\Win		1755528
+	1018812132	Explore_Amb_01	Y:\Desktop\GameAudioClass\GitHubs\Pyramind_GA_RPG\Pyramind_GameAudio_RPG_01_WwiseProject\.cache\Windows\SFX\Explore_Amb_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience_lvl1\Explore_Amb_01		10800096
 

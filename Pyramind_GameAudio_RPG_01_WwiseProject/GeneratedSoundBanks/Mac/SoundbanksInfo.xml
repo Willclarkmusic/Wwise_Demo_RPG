@@ -9,24 +9,272 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{A528C4B2-552A-0ADD-E8B3-D6D65491449A}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{D43B5E6A-42D4-2C22-80A0-37DCD102069D}">
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
 			<Media>
-				<File Id="520840252" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ChickenCluck_BW.59839.wav</ShortName>
-					<CachePath>SFX/ChickenCluck_BW.59839_818F3B66.wem</CachePath>
+				<File Id="11161334" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Dirt_02-11.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Dirt_02-11_818F3B66.wem</CachePath>
+				</File>
+				<File Id="35136268" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Table_Saw_3_Garage_Shed_Tools_Industrial_Building_Carpenter.wav</ShortName>
+					<CachePath>SFX/ESM_Table_Saw_3_Garage_Shed_Tools_Industrial_Building_Carpenter_4D2329A0.wem</CachePath>
+				</File>
+				<File Id="46913029" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C.wav</ShortName>
+					<CachePath>SFX/C_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="88689544" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A1.wav</ShortName>
+					<CachePath>SFX/A1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="114939666" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Wood_03-19.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Wood_03-19_818F3B66.wem</CachePath>
+				</File>
+				<File Id="156310521" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Wood_03-15.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Wood_03-15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="204729878" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Dirt_02-12.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Dirt_02-12_818F3B66.wem</CachePath>
+				</File>
+				<File Id="219669965" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Dirt_02-07.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Dirt_02-07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="290931387" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Wood_03-25.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Wood_03-25_818F3B66.wem</CachePath>
+				</File>
+				<File Id="291178532" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Wood_03-13.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Wood_03-13_818F3B66.wem</CachePath>
+				</File>
+				<File Id="330754302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Dirt_02-05.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Dirt_02-05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="339755042" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Wood_03-22.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Wood_03-22_818F3B66.wem</CachePath>
+				</File>
+				<File Id="346298345" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dungeon_amb_01.wav</ShortName>
+					<CachePath>SFX/Dungeon_amb_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="411456419" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B1.wav</ShortName>
+					<CachePath>SFX/B1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="450044744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Wood_03-27.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Wood_03-27_818F3B66.wem</CachePath>
+				</File>
+				<File Id="559184811" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Dirt_02-03.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Dirt_02-03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="638474851" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WhipWhooshRope_S011FO.984.wav</ShortName>
+					<CachePath>SFX/WhipWhooshRope_S011FO.984_818F3B66.wem</CachePath>
+				</File>
+				<File Id="648696887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A3.wav</ShortName>
+					<CachePath>SFX/A3_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="691939597" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps_Player_Dirt_02-09.wav</ShortName>
+					<CachePath>SFX/FootSteps_Player_Dirt_02-09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="753299733" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MO_TDA_synth_bell_perfect_dry_C.wav</ShortName>
+					<CachePath>SFX/MO_TDA_synth_bell_perfect_dry_C_818F3B66.wem</CachePath>
+				</File>
+				<File Id="795824513" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B2.wav</ShortName>
+					<CachePath>SFX/B2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="833920039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ChickenDeath.wav</ShortName>
+					<CachePath>SFX/ChickenDeath_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="967538972" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A2.wav</ShortName>
+					<CachePath>SFX/A2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="970498074" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Win.wav</ShortName>
+					<CachePath>SFX/Win_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1018812132" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explore_Amb_01.wav</ShortName>
+					<CachePath>SFX/Explore_Amb_01_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1308196106" Name="Play_ChickenCluck_BW_59839" DurationType="OneShot" DurationMin="7.0453334" DurationMax="7.0453334">
+				<Event Id="476598082" Name="Play_Ambience_lvl1" DurationType="OneShot" DurationMin="56.25" DurationMax="56.25">
 					<MediaRefs>
-						<MediaRef Id="520840252"/>
+						<MediaRef Id="346298345"/>
+						<MediaRef Id="1018812132"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1794670904" Name="Play_CollectBerry" DurationType="OneShot" DurationMin="2.9151928" DurationMax="2.9151928">
+					<MediaRefs>
+						<MediaRef Id="753299733"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3689126666" Name="Play_Jump" DurationType="OneShot" DurationMin="0.6666667" DurationMax="0.6666667">
+					<MediaRefs>
+						<MediaRef Id="638474851"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3165431594" Name="Play_Music_lvl_01" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="2610870411"/>
+							<MediaRefs>
+								<MediaRef Id="88689544"/>
+								<MediaRef Id="967538972"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="608898761"/>
+							<MediaRefs>
+								<MediaRef Id="411456419"/>
+								<MediaRef Id="795824513"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="1560169506"/>
+							<MediaRefs>
+								<MediaRef Id="46913029"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="1165767839"/>
+							<MediaRefs>
+								<MediaRef Id="833920039"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="2716678721"/>
+							<MediaRefs>
+								<MediaRef Id="970498074"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="748895195"/>
+							<MediaRefs>
+								<MediaRef Id="648696887"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="98439365" Name="Play_Player_Footsteps" DurationType="OneShot" DurationMin="0.26741666" DurationMax="0.57133335">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="25772016" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="114939666"/>
+								<MediaRef Id="156310521"/>
+								<MediaRef Id="290931387"/>
+								<MediaRef Id="291178532"/>
+								<MediaRef Id="339755042"/>
+								<MediaRef Id="450044744"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="25772016" Id="2473969246"/>
+							<MediaRefs>
+								<MediaRef Id="114939666"/>
+								<MediaRef Id="156310521"/>
+								<MediaRef Id="290931387"/>
+								<MediaRef Id="291178532"/>
+								<MediaRef Id="339755042"/>
+								<MediaRef Id="450044744"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="25772016" Id="1944526589"/>
+							<MediaRefs>
+								<MediaRef Id="114939666"/>
+								<MediaRef Id="156310521"/>
+								<MediaRef Id="290931387"/>
+								<MediaRef Id="291178532"/>
+								<MediaRef Id="339755042"/>
+								<MediaRef Id="450044744"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="25772016" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="114939666"/>
+								<MediaRef Id="156310521"/>
+								<MediaRef Id="290931387"/>
+								<MediaRef Id="291178532"/>
+								<MediaRef Id="339755042"/>
+								<MediaRef Id="450044744"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="25772016" Id="504532776"/>
+							<MediaRefs>
+								<MediaRef Id="114939666"/>
+								<MediaRef Id="156310521"/>
+								<MediaRef Id="290931387"/>
+								<MediaRef Id="291178532"/>
+								<MediaRef Id="339755042"/>
+								<MediaRef Id="450044744"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="25772016" Id="2195636714" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="11161334"/>
+								<MediaRef Id="204729878"/>
+								<MediaRef Id="219669965"/>
+								<MediaRef Id="330754302"/>
+								<MediaRef Id="559184811"/>
+								<MediaRef Id="691939597"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3225017965" Name="Play_Saw" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="35136268"/>
 					</MediaRefs>
 				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="25772016" Name="TerrainType">
+					<States>
+						<State Id="504532776" Name="Brick"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1944526589" Name="Pink"/>
+						<State Id="2058049674" Name="Wood"/>
+						<State Id="2195636714" Name="Dirt"/>
+						<State Id="2473969246" Name="Metal"/>
+						<State Id="4248645337" Name="Grass"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1021618141" Name="MusicState">
+					<States>
+						<State Id="608898761" Name="Dungeon"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1165767839" Name="Boss_Dead"/>
+						<State Id="1177409132" Name="FinalArea"/>
+						<State Id="1560169506" Name="Boss"/>
+						<State Id="2610870411" Name="MainExplore"/>
+						<State Id="2716678721" Name="Victory"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A671F08A-9411-7562-CECB-766FC2816D5B}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A90CDD24-849F-257E-8829-04D1420C735D}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -36,7 +284,11 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="529726550" Name="Env"/>
+				<Bus Id="1069431850" Name="Player"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
 			<GameParameters>
 				<GameParameter Id="835198467" Name="MasterBus"/>
@@ -92,5 +344,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E32A5DD9-5DE2-6132-B87C-13DB414FFCCC}</FileHash>
+	<FileHash>{8A3D4D2B-CD62-69D5-F70A-61E0D2174939}</FileHash>
 </SoundBanksInfo>

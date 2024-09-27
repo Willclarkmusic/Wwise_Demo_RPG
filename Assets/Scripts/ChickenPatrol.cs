@@ -121,6 +121,7 @@ public class ChickenPatrol : MonoBehaviour
         if (chickenDead == false) ;
         {
             AkSoundEngine.SetState("ChickenState", "Dead");
+            AkSoundEngine.SetState("MusicState", "Boss_Dead");
             chickenAudio.playChickenDeath();
             chickenDead = true;
         }

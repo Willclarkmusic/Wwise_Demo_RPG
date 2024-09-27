@@ -9,6 +9,33 @@
 							<ObjectRef Name="System" ID="{82DE5880-166C-49D5-8C31-6AC7507F556B}" WorkUnitID="{0F2D90B4-454F-4767-84AC-403F6D78F29D}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{435B50AE-350B-40C1-8700-ADA8D37958A7}">
+							<PropertyList>
+								<Property Name="RecoveryTime" Type="Real64" Value="0.05"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Env" ID="{C3AD34AA-FBB4-42FE-99B8-CBD2BEA4103E}"/>
+								<Bus Name="Player" ID="{AB8862B5-2827-4A35-BBD9-506EB02C1B4F}">
+									<PropertyList>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.05"/>
+									</PropertyList>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="Music" ID="{59B904BA-8FDB-4B68-B755-E672CBF10D65}"/>
+											<DuckingParam>
+												<Volume>-8</Volume>
+												<FadeInTime>0.100000001490116</FadeInTime>
+												<FadeOutTime>0.100000001490116</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Music" ID="{59B904BA-8FDB-4B68-B755-E672CBF10D65}"/>
+					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="RTPC">
 							<Reference>
